@@ -13,16 +13,19 @@ pkg install git wget -y
 git clone --depth=1 https://github.com/modded-ubuntu/modded-ubuntu.git
 cd modded-ubuntu
 bash setup.sh
+(copy)
 Then Restart your Termux & Type the following commands
 
 ubuntu
 bash user.sh
+(copy)
 Type your ubuntu root username. Must be lowercase & no space included.
 
 Then Again Restart your Termux & Type the following commands
 
 ubuntu
-sudo bash gui.sh
+sudo bash gui.sh 
+
 You have to note your VNC password !!
 
 Ubuntu image is now successfully installed .
@@ -42,8 +45,8 @@ Enjoy :D
 NOTE :
 Type ubuntu to run Ubuntu CLI.
 
-Type vncstart to run Vncserver
+Type :vncstart to run Vncserver
 
-Type vncstop to stop Vncserver
+Type :vncstop to stop Vncserver
 
-Type bash remove.sh to remove Ubuntu Modded Os
+Type bash remove.sh to remove Ubuntu Modded Os 
